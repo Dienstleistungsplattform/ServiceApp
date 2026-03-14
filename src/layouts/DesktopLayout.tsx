@@ -37,7 +37,6 @@ function Sidebar({ nav, setNav }: { nav:NavId; setNav:(id:NavId)=>void }) {
           <div style={{ width:36, height:36, borderRadius:12, background:`${c.accent}33`, display:'flex', alignItems:'center', justifyContent:'center', fontSize:18, flexShrink:0 }}>👤</div>
           <div style={{ minWidth:0 }}>
             <div style={{ fontSize:13, fontWeight:600, color:c.navText, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}>{user.firstName} {user.lastName}</div>
-            <div style={{ fontSize:11, color:c.navMuted }}>Premium</div>
           </div>
         </div>
       </div>
